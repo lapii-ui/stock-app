@@ -1,0 +1,227 @@
+.btn_success{
+    padding: 3px 15px;
+    border: unset;
+    border-radius: 2px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #28a745;
+    vertical-align: middle;
+    margin: 5px 0;
+    cursor: pointer;
+}
+.btn_info{
+    padding: 3px 15px;
+    border: unset;
+    border-radius: 2px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #17a2b8;
+    vertical-align: middle;
+    margin: 5px 0;
+    cursor: pointer;
+}
+.btn_primary{
+    padding: 3px 15px;
+    border: unset;
+    border-radius: 2px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff;
+    vertical-align: middle;
+    margin: 5px 0;
+    cursor: pointer;
+}
+.btn_warning{
+    padding: 3px 15px;
+    border: unset;
+    border-radius: 2px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #ffc107;
+    vertical-align: middle;
+    margin: 5px 0;
+    cursor: pointer;
+}
+.btn_danger{
+    padding: 3px 15px;
+    border: unset;
+    border-radius: 2px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #dc3545;
+    vertical-align: middle;
+    margin: 5px 0;
+    cursor: pointer;
+}
+.align-right{
+    float: right;
+    text-align: right;
+}
+.table_default{
+    width: 100%;
+    border-collapse: collapse;
+
+    thead{
+        line-height: 25px;
+        vertical-align: middle;
+        background-color: #999;
+        color: #fff;
+
+        
+    }
+    tbody{
+        line-height: 25px;
+        vertical-align: middle;
+        
+        tr{
+            border-bottom: 0.2px solid #999;
+        }
+    }
+}
+.table_success{
+    width: 100%;
+    border-collapse: collapse;
+
+    thead{
+        line-height: 25px;
+        vertical-align: middle;
+        background-color: #28a745;
+        color: #fff;
+
+        
+    }
+    tbody{
+        line-height: 25px;
+        vertical-align: middle;
+        
+        tr{
+            border-bottom: 0.2px solid #28a745;
+        }
+    }
+}
+.table_info{
+    width: 100%;
+    border-collapse: collapse;
+
+    thead{
+        line-height: 25px;
+        vertical-align: middle;
+        background-color: #17a2b8;
+        color: #fff;
+
+        
+    }
+    tbody{
+        line-height: 25px;
+        vertical-align: middle;
+        
+        tr{
+            border-bottom: 0.2px solid #17a2b8;
+        }
+    }
+}
+.table_primary{
+    width: 100%;
+    border-collapse: collapse;
+
+    thead{
+        line-height: 25px;
+        vertical-align: middle;
+        background-color: #007bff;
+        color: #fff;
+
+        
+    }
+    tbody{
+        line-height: 25px;
+        vertical-align: middle;
+        
+        tr{
+            border-bottom: 0.2px solid #007bff;
+        }
+    }
+}
+.table_warning{
+    width: 100%;
+    border-collapse: collapse;
+
+    thead{
+        line-height: 25px;
+        vertical-align: middle;
+        background-color: #ffc107;
+        color: #fff;
+
+        
+    }
+    tbody{
+        line-height: 25px;
+        vertical-align: middle;
+        
+        tr{
+            border-bottom: 0.2px solid #ffc107;
+        }
+    }
+}
+.table_danger{
+    width: 100%;
+    border-collapse: collapse;
+
+    thead{
+        line-height: 25px;
+        vertical-align: middle;
+        background-color: #dc3545;
+        color: #fff;
+
+        
+    }
+    tbody{
+        line-height: 25px;
+        vertical-align: middle;
+
+        tr{
+            border-bottom: 0.2px solid #dc3545;
+        }
+    }
+}
+
+.form_input{
+    line-height: 15px;
+    border: 0.2px solid gray;
+    border-radius: 2px;
+    padding: 2px 7px;
+    vertical-align: middle;
+    margin: 2px auto;
+    width: 65%;
+    right: 15px;
+    // position: absolute;
+    &:read-only{
+        background: #fcfcfc;
+        cursor: not-allowed;
+    }
+}
+.form_text_area{
+    border: 0.2px solid gray;
+    border-radius: 2px;
+    padding: 2px 7px;
+    vertical-align: middle;
+    margin: 2px auto;
+    width: 65%;
+    right: 15px;
+    // position: absolute;
+    &:read-only{
+        background: #fcfcfc;
+        cursor: not-allowed;
+    }
+}
+.col-ms-3{
+    justify-content: left !important;
+    width: 120px;
+}
+.modal-header{
+    i{
+        position: absolute;
+        font-size: 20px;
+        top: 0;
+        left: 10px;
+    }
+}

@@ -1,0 +1,180 @@
+.sidebar-nav {
+    background-color: $light_black;
+
+    .nav-item {
+
+        .search-user {
+
+            font-size: 15px;
+
+            form {
+
+                background-color: #e9ecef;
+                padding: 15px;
+
+                .form-control {
+                    border-radius: unset;
+                }
+
+                input, select, button {
+                    box-shadow: none;
+                }
+
+
+            }
+
+            .account-name {
+                background-color: #f9fbfc;
+                padding: 12px 5px 12px 15px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                cursor: pointer;
+
+                span {
+                    font-weight: 500;
+
+                    i {
+                        font-size: 20px;
+                    }
+                }
+
+                a {
+                    i {
+                        color: #333333;
+                    }
+                }
+
+            }
+
+            .user-account {
+                background: #f9fbfc;
+                padding: 5px 15px;
+                font-size: 13px;
+                // box-shadow: inset 0 0 100px #dae0e6;
+
+                .account-list {
+
+                    .list {
+                        display: flex;
+
+                        .list-title, .list-item {
+                            width: 50%;
+                            font-weight: 500;
+                            line-height: 2;
+                        }
+
+                    }
+
+                    .button-group {
+                        display: flex;
+                        justify-content: space-around;
+                        a {
+                            border-radius: unset;
+                            background-color: #e9ecef;
+                            width: 100%;
+                            font-size: 15px;
+                            padding: 2px 0;
+
+                            &:focus {
+                                border-color: #cccccc;
+                                -webkit-box-shadow: none;
+                                box-shadow: none;
+                            }
+
+                        }
+                    }
+
+                }
+            }
+
+        }
+
+        i {
+            font-size: 14px;
+            margin-right: 7px;
+        }
+
+        &.show{
+            background-color: $active;
+            a{
+                color: $white;
+            }
+        }
+
+        &:hover {
+            background-color: $active;
+        }
+
+        a.nav-link {
+            padding: 12px 5px;
+            border-left: 3px solid transparent;
+            font-size: 13px;
+
+            span {
+                text-transform: uppercase;
+                font-size: 13px;
+            }
+
+            &:hover {
+                color: $white;
+            }
+        }
+    }
+
+    ul.nav-dropdown {
+        a.dropdown-item {
+            background-color: unset;
+            &.dropdown-item.activeItem {
+                color: $white;
+            }
+        }
+
+        &.show {
+            margin: 0;
+            padding-top: 0;
+            padding-bottom: 0;
+            border-radius: 0;
+            border: none;
+            background-color: $light_black;
+
+        }
+
+        li.dropdown-submenu {
+
+            &:hover {
+                background-color: $active;
+            }
+            a.dropdown-item {
+                color: $gray;
+                border-radius: 0;
+                padding: 12px 5px 12px 25px;
+
+                &:hover {
+                    color: $white;
+                }
+
+                &:after {
+                    @include transform(rotate(-90deg))
+                }
+            }
+            ul.nav-dropdown {
+                background-color: #212529;
+
+                li {
+                    a.dropdown-item {
+
+                        padding-left: 30px;
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+.toggle-arrow::after {
+    @include transform(rotate(0) !important)
+}
+
